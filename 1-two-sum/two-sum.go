@@ -1,5 +1,5 @@
 func twoSum(nums []int, target int) []int {
-    sumMap:=map[int]int{}
+    sumMap:=make(map[int]int)
     
     for i,v:=range nums{
         if ei, ok:=sumMap[target-v]; ok{
